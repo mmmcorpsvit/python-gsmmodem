@@ -4,7 +4,7 @@ python-gsmmodem-new v0.12
 
 python-gsmmodem is a module that allows easy control of a GSM modem attached
 to the system. It also includes a couple of useful commandline utilities for
-interacting with a GSM modem. 
+interacting with a GSM modem.
 
 Its features include:
 
@@ -26,7 +26,7 @@ Bundled utilities:
   commands, history, context-aware prompt, etc.
 - **sendsms.py**: a simple command line script to send SMS messages
 - **identify-modem.py**: simple utility to identify attached modem. Can also be
-  used to provide debug information used for development of python-gsmmodem. 
+  used to provide debug information used for development of python-gsmmodem.
 
 How to use this package
 -----------------------
@@ -56,7 +56,7 @@ Automatic installation of the latest "stable" release from PyPI
 
 `pip <http://www.pip-installer.org>`_ will automatically download and install
 all dependencies, as required. You can also utilise ``easy_install`` in the
-same manner as using ``pip`` above.  
+same manner as using ``pip`` above.
 
 If you are utilising ``python-gsmmodem-new`` as part of another project,
 add it to your ``install_requires`` section of your ``setup.py`` file and
@@ -70,8 +70,8 @@ Download a ``python-gsmmodem-new`` archive from `PyPI
 
     python setup.py install
 
-Note that ``python-gsmmodem-new`` package relies on ``pyserial`` for serial communications: 
-http://pyserial.sourceforge.net
+Note that ``python-gsmmodem-new`` package relies on ``pyserial`` for serial communications:
+https://github.com/pyserial/pyserial
 
 Installation of the latest commit from GitHub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -82,8 +82,8 @@ Clone from GitHub::
     cd python-gsmmodem/
     python setup.py install
 
-Note that ``python-gsmmodem-new`` package relies on ``pyserial`` for serial communications: 
-http://pyserial.sourceforge.net
+Note that ``python-gsmmodem-new`` package relies on ``pyserial`` for serial communications:
+https://github.com/pyserial/pyserial
 
 Testing the package
 -------------------
@@ -129,8 +129,8 @@ this development installation.
 License information
 -------------------
 
-Copyright (C) 2013 Francois Aucamp  
-See AUTHORS for all authors and contact information. 
+Copyright (C) 2013 Francois Aucamp
+See AUTHORS for all authors and contact information.
 
 License: GNU Lesser General Public License, version 3 or later; see COPYING
          included in this archive for details.
